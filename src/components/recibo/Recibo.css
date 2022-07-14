@@ -1,0 +1,207 @@
+.input_valor{
+    width: 120px;
+    height: 30px;
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+
+}
+
+#reciboImprimir{
+    display:none;
+}
+
+table {
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+.titulo{
+    text-align: center;
+}
+
+p{
+    display: block;
+    font-size: .75rem;
+    margin-top: 0.25rem;
+}
+
+#valor{
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+
+}
+
+.input-nomePagador{
+    width: 790px;
+    height: 30px;
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+
+}
+
+.nome-pagador{
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+}
+
+#cpfCnpjPagador{
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+    height: 30px;
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    width: 170px;
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    width: 100%;
+    top: 80px;
+    position: absolute;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+column{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+    padding-left: 18%;
+
+}
+
+box{
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    width: 800px;
+}
+
+.input_referencia{
+    width: 790px;
+    height: 30px;
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+
+}
+
+.referencia{
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+}
+
+#cidade{
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: initial;
+    text-align: left;
+    width: 380px;
+    height: 30px;
+}
+
+.input-nomeEmissor{
+    width: 790px;
+    height: 30px;
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+
+}
+
+.nome-emissor{
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+}
+
+#telefone{
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: initial;
+    text-align: left;
+    width: 380px;
+    height: 30px;
+}
+
+#cpfCnpjEmissor{
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+    height: 30px;
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    width: 400px;
+}
+
+#formaPagamento{
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+    width: 400px;
+    height: 30px;
+}
+
+@media print{
+    .Botao-GerarRecibo{
+        display: none;
+    }
+}
+
+button{
+    width: 130px;
+    height: 60px;
+    background-color: #3273dc;
+    border-radius: 5px;
+}
+
+b{
+    color: whitesmoke;
+}
