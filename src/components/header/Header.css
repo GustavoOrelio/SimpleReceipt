@@ -1,0 +1,10 @@
+.Header {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(70, 157, 243, 0.85);
+}
+
+.text{
+    padding-left: 10px;
+}
